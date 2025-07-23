@@ -72,21 +72,18 @@ body {
     height: 65px;
     width: 100%;
     background-color: rgba(34, 49, 52, 0.9);
-    /* positionプロパティをfixedに、topを0に指定してください */
     position:fixed;
     top:0;
-    
-    /* z-indexを10に指定してください */
     z-index:10;
   }
   
   .logo {
     width: 124px;
-    margin-top: 20px;
   }
   
   .header-left {
     float: left;
+    margin-bottom: 50%;
   }
   
   .header-right {
@@ -176,8 +173,10 @@ body {
   footer p {
     color: #b3aeb5;
     font-size: 12px;
+    margin-bottom: 0%;
   }
   
   footer {
     padding-top: 30px;
+    background-color: #2c3e50;
   }
